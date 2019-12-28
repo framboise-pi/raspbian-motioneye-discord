@@ -1,7 +1,9 @@
 # raspbian-motioneye-discord
 For RASPBIAN and MOTIONEYE, command to use for sending notification and picture to DISCORD with a WEBHOOK
 
-I.INSTALLATION
+---------------------
+
+# I.INSTALLATION
   * install discord_webhook to format discord messages
     * https://pypi.org/project/discord-webhook/
     * sudo pip install discord-webhook
@@ -12,10 +14,10 @@ I.INSTALLATION
       - edit Camera lib folder if different (folder = '/home/pi/motioneye/lib/Camera1/')
       - customize 'title' and 'description' on line "embed =..."
       
- II.USE IN MOTIONEYE
+# II.USE IN MOTIONEYE
   * in command field, type :
       - python /home/pi/motioneye/raspbian-motioneye-discord.py &
 
 
-#FUTURE
+# FUTURE
 * NRE (if no .jpg in folder, even if no folder)
