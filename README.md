@@ -13,4 +13,4 @@ I.INSTALLATION
     
  II.USE IN MOTIONEYE
   * in command field, type :
-    python /home/pi/motioneye/raspbian-motioneye-discord.py &
+  - python /home/pi/motioneye/raspbian-motioneye-discord.py &
