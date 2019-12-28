@@ -3,8 +3,8 @@ For Raspbian and Motioneye, command to use for sending notification and picture 
 
 I.INSTALLATION
   * install discord_webhook to format discord messages
-    https://pypi.org/project/discord-webhook/
-    sudo pip install discord-webhook
+    * https://pypi.org/project/discord-webhook/
+    * sudo pip install discord-webhook
     
   * copy raspbian-motioneye-discord.py to motioneye folder (should be /home/pi/motioneye/)
   * edit raspbian-motioneye-discord.py
