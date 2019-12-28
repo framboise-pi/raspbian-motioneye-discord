@@ -1,5 +1,5 @@
 # raspbian-motioneye-discord
-For Raspbian and Motioneye, command to use for sending notification and picture to discord
+For RASPBIAN and MOTIONEYE, command to use for sending notification and picture to DISCORD with a WEBHOOK
 
 I.INSTALLATION
   * install discord_webhook to format discord messages
