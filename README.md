@@ -18,6 +18,11 @@ For RASPBIAN and MOTIONEYE, command to use for sending notification and picture 
   * in command field, type :
       - python /home/pi/motioneye/raspbian-motioneye-discord.py &
 
+# HOW IT WORKS
+ As you can see the code is simple, it will send a webhook containing the last .jpg file create in the folder of the day used by Motioneye (should be /home/pi/motioneye/lib/).
+
+# NOTES
+ I only found .py for MotioneyeOS, that don't work on my Raspbian with Motioneye, that's why i made this one from scratch.
 
 # FUTURE
 * NRE (if no .jpg in folder, even if no folder)
