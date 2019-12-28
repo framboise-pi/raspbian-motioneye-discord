@@ -5,7 +5,7 @@ import glob,os,datetime,urllib
 
 webhook = DiscordWebhook(url='https://discordapp.com/api/webhooks/CHANGE_THIS_WITH_YOUR_DISCORD_WEBHOOK_URL', username="DISCORDBOTNAME")
 
-# change foler to your Camera folder
+# change folder to your Camera folder
 # will get the last .jpg from the current day
 folder = '/home/pi/motioneye/lib/Camera1/' + datetime.datetime.today().strftime('%Y-%m-%d')
 list_of_files = glob.glob(folder + '/*.jpg')
