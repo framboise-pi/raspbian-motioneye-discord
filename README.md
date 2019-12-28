@@ -9,8 +9,13 @@ I.INSTALLATION
   * copy raspbian-motioneye-discord.py to motioneye folder (should be /home/pi/motioneye/)
   * edit raspbian-motioneye-discord.py
       - paste your DISCORD webhook URL
-      - edit Camera lib filder if different
-    
+      - edit Camera lib folder if different (folder = '/home/pi/motioneye/lib/Camera1/')
+      - customize 'title' and 'description' on line "embed =..."
+      
  II.USE IN MOTIONEYE
   * in command field, type :
       - python /home/pi/motioneye/raspbian-motioneye-discord.py &
+
+
+#FUTURE
+* NRE (if no .jpg in folder, even if no folder)
